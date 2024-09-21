@@ -3,3 +3,4 @@ The idea is to manage these scripts similarly to how Dockerfiles are used, provi
 
 ### Containers
 - [Alpine-Filebrowser](./container/filebrowser)
+- [Alpine-Python](./container/python)
