@@ -3,7 +3,7 @@
 ### Usage
 - Install Command
     ```shell=
-    chmod +x script/container/filebrowser/install.sh && \
+    chmod +x proot-distro-containers/container/filebrowser/install.sh && \
     	pd install alpine --override-alias alpine-test && \
     	pd login alpine-test --isolated --bind /data/data/com.termux/files/home/script:/root \
     		-- \
