@@ -1,7 +1,7 @@
 # Alpine-Filebrowser-Container
 
 ### Usage
-- Install Command
+- Install
     ```shell
     chmod +x proot-distro-containers/container/filebrowser/install.sh && \
     	pd install alpine --override-alias alpine-filebrowser && \
@@ -9,7 +9,7 @@
     		-- \
     		./container/filebrowser/install.sh
     ```
-- Run Command
+- Run
     ```shell
     chmod +x proot-distro-containers/container/filebrowser/run.sh && \
         ./proot-distro-containers/container/filebrowser/run.sh
