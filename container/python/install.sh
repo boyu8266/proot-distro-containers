@@ -3,4 +3,4 @@
 
 apk update
 apk upgrade
-apk add python3
+apk add --no-cache python3 py3-pip
