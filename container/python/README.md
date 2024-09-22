@@ -12,7 +12,7 @@
 
 - Install-dev
     ```shell
-    chmod +x proot-distro-containers/container/python/install.sh && \
+    chmod +x proot-distro-containers/container/python/install-dev.sh && \
     	pd install alpine --override-alias alpine-python-dev && \
     	pd login alpine-python-dev --isolated --bind /data/data/com.termux/files/home/proot-distro-containers:/root \
     		-- \
