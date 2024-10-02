@@ -24,3 +24,9 @@
     chmod +x proot-distro-containers/container/python/run.sh && \
         ./proot-distro-containers/container/python/run.sh
     ```
+
+- Run-dev
+    ```shell
+    chmod +x proot-distro-containers/container/python/run-dev.sh && \
+        ./proot-distro-containers/container/python/run-dev.sh
+    ```
