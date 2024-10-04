@@ -3,4 +3,4 @@
 
 apk update
 apk upgrade
-apk add --no-cache python3
+apk add --no-cache python3=3.12.6-r0
