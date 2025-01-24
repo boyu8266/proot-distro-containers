@@ -1,3 +1,5 @@
+alias sshkey="ssh-keygen -t rsa -b 4096"
+
 alias aic2="pd login alpine-aic2 \
     --bind /data/data/com.termux/files/home/.gitconfig:/root/.gitconfig \
 	--bind /data/data/com.termux/files/home/.aicommit2:/root/.aicommit2 \
