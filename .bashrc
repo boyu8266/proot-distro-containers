@@ -25,3 +25,24 @@ alias be="pd login alpine-python \
 	--work-dir /root/workspace/.config/binance \
 	-- \
 	../../.env/binance/bin/be"
+	
+alias ist="pd login alpine-python \
+	--isolated \
+	--bind /data/data/com.termux/files/home:/root \
+	--work-dir /root/workspace/.config/ist \
+	-- \
+	../../.env/stock/bin/ist"
+	
+alias tsrtna="pd login alpine-python \
+	--isolated \
+	--bind /data/data/com.termux/files/home:/root \
+	--work-dir /root/workspace/.config/tsrtna \
+	-- \
+	../../.env/stock/bin/tsrtna"
+	
+alias noip="pd login alpine-python \
+	--isolated \
+	--bind /data/data/com.termux/files/home:/root \
+	--work-dir /root/workspace/noip-updater \
+	-- \
+	../.env/noip/bin/python no_ip.py"
